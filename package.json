@@ -1,0 +1,35 @@
+{
+  "name": "banka-frontend-react",
+  "version": "1.0.0",
+  "description": "A light weight bank application react frontend",
+  "main": "./src/index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --config ./webpack.dev.js",
+    "build": "webpack --config ./webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benisi/banka-frontend-react.git"
+  },
+  "keywords": [
+    "bank",
+    "react"
+  ],
+  "author": "Benjamin Isidahomen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benisi/banka-frontend-react/issues"
+  },
+  "homepage": "https://github.com/benisi/banka-frontend-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
