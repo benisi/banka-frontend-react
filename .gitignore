@@ -1,2 +1,7 @@
-./node_modules
+node_modules
 .env
+dist
+coverage
+.vscode/
+.DS_Store
+src/components/.DS_Store
